@@ -32,7 +32,7 @@ function App() {
         tl.set(cursor, {
           css: {
             left: posX - 50,
-            top: posY - 50,
+            top: posY - 50,  
           },
         });
       }
@@ -44,7 +44,7 @@ function App() {
     tl2.from(cursor, {
       duration: 1.5,
       delay: 2,
-      opacity: 1
+      opacity: 0
     }, "-=1")
   })
 
@@ -71,7 +71,7 @@ function App() {
       visibility: 'hidden',
       zIndex: -1
     });
-  });
+  });   
 
   var id;
   var width1 = 1;
@@ -95,7 +95,7 @@ function App() {
   return (
       <div className="App">
         <div className="noise"></div>
-      <div className="loader" ref={(el) => (loader = el)}>
+        <div className="loader" ref={(el) => (loader = el)}>
             <div className="progress" ref={(el) => (progress = el)}>
               <div id="percent" ref={(el) => (percent = el)}>
                 1%
@@ -104,7 +104,7 @@ function App() {
                 <div id="barc" ref={(el) => (barc = el)}></div>
               </div>
             </div>
-          </div>
+      </div>
       <BrowserRouter>
       <TopScroll/>
       <Navbar />
@@ -121,6 +121,5 @@ function App() {
    
   );
 }
-
 
 export default App;

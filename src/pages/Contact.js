@@ -9,18 +9,21 @@ const Contact = () => {
     'subject':'',
     'message': ''
   })
-  const submitHandler = (e)=>{
-    e.preventDefault();
+  const sendContact = async () => {
      try {
-      const docRef =  addDoc(collection(db, "contact"), formInput);
-      alert("Document written with ID: ", docRef.id);
+      const docRef = await addDoc(collection(db, "contact"), formInput);
+      console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
     }
   }
+  const submitHandler = (e)=>{
+    e.preventDefault();
+    sendContact();
+  }
   
   return (
-    <div>
+    <div> 
       <div className="contact-page">
                 <div className="contact-page-container">
                     <h1>
@@ -29,7 +32,7 @@ const Contact = () => {
                     <div className="contact-info">
                        
                        <form onSubmit={submitHandler}>
-                         <input type="text" placeholder="Email" value={formInput.email} onChange={(e)=>setFormInput({...formInput, email: e.target.value})} />
+                         <input type="email" placeholder="Email" value={formInput.email} onChange={(e)=>setFormInput({...formInput, email: e.target.value})} />
                          <input type="text" placeholder="Subject" value={formInput.subject} onChange={(e)=>setFormInput({...formInput, subject: e.target.value})}/>
                          <textarea type="text" placeholder="message" value={formInput.message} onChange={(e)=>setFormInput({...formInput, message: e.target.value})}></textarea>
                          <button type="submit">Submit</button>

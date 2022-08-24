@@ -42,9 +42,9 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <di  ref={el => p1 = el}v className="container-quote container-quote1">
+                    <div ref={el => p1 = el} className="container-quote container-quote1">
                         I create sites and <br /> applications that cause <br /> pleasant emotions
-                    </di>
+                    </div>
                     <div className="container-quote container-quote2">
                         I specialize in interaction <br /> design, experience websites <br /> and applications
                     </div>
@@ -61,26 +61,18 @@ const About = () => {
                         
                     </div>
                     <div className="about-container2-p">
-                        <p>Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet, <br /> consectetur adipisicing elit. Sed, cum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae architecto minima odio, incidunt qui?</p>
+                        <p>Hi! I'm Ibtihel Ben Salah, a FrontEnd from tunisia.</p>
+                        <p> ___My journey started 1 year ago, learning to code by myself witch made pick on new technologies in fast way and to work independently </p>
                         <p className="about-container2-p-right">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt, <br /> ipsam laborum rerum fugiat dolore natus unde odio placeat quia.
+                            I created more than 30 client web applications that are responsive , SEO friendly with high performance.
+                         in the process I acquired an ability to implement scalable and maintainable projects in efficient way and in a determined period of time.
                         </p>
-                        <p>Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ipsam.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, cupiditate!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolorum. <br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nemo!</p>
-                    </div>
-                    <div className="about-container2-heading2">
-                        <div className="about-text-lower">
-                            <p>What is my feature?</p>
-                        </div>
-                    </div>
-                    <div className="about-container2-p">
-                        <p className="about-container2-p-right">
-                            Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet.
+                        <p>Finally you maybe want to know about my academic backround, I have a civil engineering degree and 1 year professional experince in that field, I worked in a frensh company SETEC, 
+                          I worked with a team of more than 10 individual on big projects in which I made sure to be an active listener and great communicator to garentee a harmounious work enviroment and to hit all the goals of the project in most affective way
                         </p>
-                        <p>Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet.</p>
                     </div>
+                   
+                    
                     <div className="about-container-flower">
                         <img src={flower} alt="" />
                     </div>

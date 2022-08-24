@@ -18,8 +18,7 @@ const Home = () => {
         timeline_home.from([text1, text2, text3, text4], {
             
             duration: 1,
-            skewY: 15,
-            y: 400,
+            y: 0,
             stagger: {
                 amount: .2
             }
@@ -33,7 +32,6 @@ const Home = () => {
     })
   return (
     <div className='home'>
-    1
       <div className="container">
           <div className="container1">
               <div className="txt-line" id='Ibtihel'>
@@ -46,16 +44,16 @@ const Home = () => {
           <div></div>
       </div>
       <div className="left-side-quote">
-          <p ref={el => p1 = el}>I create didgital experiences that merge art <br /> direction, branding, creative strategy, web <br /> design, prototyping, and digital interactions.</p>
+          <p ref={el => p1 = el}>I create interactive  <br /> client side application <br /> that meets all the requirement of modern websites.</p>
       </div>
       <div className="container">
           <div></div>
           <div className="container1">
-              <div className="txt-line" id="digital">
-                  <p ref={el => text3 = el}>Digital</p>
+              <div className="txt-line">
+                  <p ref={el => text3 = el}>FrontEnd</p>
               </div>
-              <div className="txt-line line-bottom" id="designer">
-                  <p ref={el => text4 = el}>Designer</p>
+              <div className="txt-line line-bottom">
+                  <p ref={el => text4 = el}>React developer</p>
               </div>
           </div>
       </div>
@@ -76,10 +74,10 @@ const Home = () => {
           </div>
           <div className="sub-main-p-short-about">
               <p className="sub-main-short-about">
-                  I BELIEVE THAT EVERY PROJECT THAT I DO SHOULD HAVE AN OVERVALUE.
+                I IMPLEMENT THE BEST SOLUTION FOR YOUR PROJECT
               </p>
               <p className="sub-main-short-about">
-                  I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
+                PROVIDING THE BEST EXPERIENCE FOR YOUR PEOPLE 
               </p>
           </div>
           <div className="another-svg">
@@ -102,12 +100,12 @@ const Home = () => {
           <div className="skill-set-boxes">
               <div className="skill-set-box">
                   <h1 className="skill-set-box-h1">HTML5</h1>
-                  <p className="skill-set-box-p">I mainly used to develop Website Markup</p>
+                  <p className="skill-set-box-p">W3C Validate Mark-Up, SEO optimized code.</p>
                   <p>___</p>
               </div>
               <div className="skill-set-box">
                   <h1 className="skill-set-box-h1">CSS3</h1>
-                  <p className="skill-set-box-p">I use this to style and bring design to browsers</p>
+                  <p className="skill-set-box-p">Responsive & Mobile Friendly, Cross-browser compatibility (Brave, Chrome, Firefox).</p>
                   <p>___</p>
               </div>
               <div className="skill-set-box">
@@ -117,6 +115,16 @@ const Home = () => {
               </div>
               <div className="skill-set-box">
                   <h1 className="skill-set-box-h1">React.js</h1>
+                  <p className="skill-set-box-p">I loved it! I use it to create applications that have lot of reactivity</p>
+                  <p>___</p>
+              </div>
+              <div className="skill-set-box">
+                  <h1 className="skill-set-box-h1">Next.js</h1>
+                  <p className="skill-set-box-p">I loved it! I use it to create applications that have lot of reactivity</p>
+                  <p>___</p>
+              </div>
+              <div className="skill-set-box">
+                  <h1 className="skill-set-box-h1">Tailwindcss</h1>
                   <p className="skill-set-box-p">I loved it! I use it to create applications that have lot of reactivity</p>
                   <p>___</p>
               </div>

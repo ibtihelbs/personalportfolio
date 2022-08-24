@@ -1,3 +1,6 @@
+:root{
+    --text: #642420;
+}
 .my-projects{
     display: flex;
     align-items: center;
@@ -8,15 +11,22 @@
     border-bottom: 1px dashed black;
 }
 .my-projects h1{
-    font-family: 'Ogg';
+    font-family: 'Cinzel Decorative', cursive;;
     font-size: 220px;
     font-weight: lighter;
     line-height: 80%;
     text-transform: capitalize;
 }
-.project-page a {
-    color: #642420;
-    text-decoration: none;
+.project-page div {
+    color: var(--text);
+  
+}
+.links{
+    display: flex;
+    gap:1rem;
+}
+.icons{
+    width: 50px; 
 }
 .project-page-container{
     display: flex;
@@ -41,15 +51,11 @@
 .project-page-item:hover{
     transform: scale(1.05);
 }
-.project-page-item-number p{
-    font-size: 10px;
-    font-weight: 500;
-    font-family: 'Inter';
-}
+
 .project-page-item-header{
     display: flex;
     width: 100%;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 .project-page-item-header h1{
@@ -69,15 +75,19 @@
 .project-page-item-image{
     width: 100%;
     height: 400px;
-    background-color: #642420;
+    background-color: var(--text);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
 }
+.project-page-item-image img{
+    width: 100%;
+    height: 100%;
+}
 .project-page-item-footer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     margin-top: 10px;
@@ -96,24 +106,11 @@
     margin-right: 5px;
     transform: rotate(270deg);
 }
-.project-page-item-image1{
- background-image: url(../project1.jpg);   
+.technologies{
+    display: block;
 }
-.project-page-item-image2{
- background-image: url(../project2.jpg);   
-}
-.project-page-item-image3{
- background-image: url(../project3.jpg);   
-}
-.project-page-item-image4{
- background-image: url(../project4.jpg);   
-}
-.project-page-item-image5{
- background-image: url(../project5.jpg);   
-}
-.project-page-item-image6{
- background-image: url(../project6.jpg);   
-}
+
+
 
 @media (max-width: 900px) {
     .my-projects{
@@ -135,7 +132,10 @@
         font-size: 80px;
     }
 
-    .project-page-item{
-        height: 300px;
+    span{
+        font-size:14px;
     }
+    .icons {
+        width: 40px;
+      }
 }
