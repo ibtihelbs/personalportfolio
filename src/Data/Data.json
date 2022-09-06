@@ -1,7 +1,7 @@
 [
     {
       "title": "calculator with theme switcher",
-      "description": ["Users will be allowed to:", 
+      "description": [ 
       "See the size of the elements adjust based on their device's screen size",
       "Perform mathematical operations like addition, subtraction, multiplication, and division",
       "Adjust the color theme based on their preference"],
@@ -19,7 +19,7 @@
     },
       {
         "title": "Time Tracking Dashboard",
-        "description": ["Users will be allowed to:", 
+        "description": [ 
         "View the optimal layout for the site depending on their device's screen size",
         "See hover states for all interactive elements on the page",
         "Switch between viewing Daily, Weekly, and Monthly stats"],
@@ -38,7 +38,7 @@
   
       {
         "title": "Job listings with filtering",
-        "description": ["Users will be allowed to:",   
+        "description": [   
         "View the optimal layout for the site depending on their device's screen size",
         "See hover states for all interactive elements on the page",
         "Filter job listings based on the categories selected"
@@ -57,7 +57,7 @@
       },
       {
         "title": "product detail page",
-        "description": ["Users will be allowed to:",   
+        "description": [   
           "View the cart and remove items from it",
           "Add items to the cart",
           "Open a lightbox gallery by clicking on the large product image",
@@ -75,7 +75,7 @@
       },
       {
         "title": "Interactive comments section",
-        "description": ["Users will be allowed to:",   
+        "description": [  
         "View the optimal layout for the app depending on their device's screen size",
         "See hover states for all interactive elements on the page",
         "Create, Read, Update, and Delete comments and replies",
@@ -97,7 +97,7 @@
       },
       {
         "title": "API: countries with theme switcher",
-        "description": ["Implemented app that enables users to :",
+        "description": [
   
         "See all countries from the API on the homepage",
         "Filter countries by region",

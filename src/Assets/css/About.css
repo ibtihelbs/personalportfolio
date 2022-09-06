@@ -6,7 +6,7 @@
     margin-top: 5vh;
     display: flex;
     font-size: 200px;
-    font-family: 'Cinzel Decorative', cursive;;
+    font-family: 'Cinzel Decorative', cursive;
     font-weight: lighter;
     overflow: hidden;
     flex-direction: column;
@@ -67,7 +67,7 @@
 .about-container2-heading p,
 .about-container2-heading2 p{
     font-size: 200px;
-    font-family: 'Cinzel Decorative', cursive;;
+    font-family: 'Cinzel Decorative', cursive;
     line-height: 0%;
     font-weight: lighter;
     letter-spacing: -8px;

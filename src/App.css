@@ -4,6 +4,10 @@
 body{
   background-color: var(--bg-color);
 }
+ul{
+  list-style: none;
+  
+}
 .app{
   margin: 0;
   padding: 0;
@@ -76,7 +80,7 @@ body{
   margin-bottom: 50px;
   color: black;
   font-size: 100px;
-  font-family: 'Ogg';
+  font-family: 'Cinzel Decorative', cursive;
 }
 #bar{
   width: 80%;
@@ -86,5 +90,4 @@ body{
   width: 1%;
   padding: 1px 0px;
   background-color: black;
-
 }

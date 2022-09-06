@@ -14,7 +14,7 @@
     font-size: 200px;
 
     font-weight: lighter;
-    font-family: 'Cinzel Decorative', cursive;;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .contact-page-container h1 img{
@@ -36,6 +36,7 @@ form {
 form > input, textarea {
     width: 100%;
     padding: 1rem;
+    font-family: 'Inter';
 }
 textarea {
     align-items: stretch;
@@ -49,8 +50,11 @@ button{
     align-self: flex-end;
     border-radius: 0;
     border: none;
-    background: orange;
-    padding: .5rem 1rem;
+    color: white;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    font-family: 'Inter';
 }
 @keyframes animate-rotate {
     from{
