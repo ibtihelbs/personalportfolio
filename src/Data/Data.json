@@ -1,4 +1,27 @@
-[
+[   
+  {
+    "title": "API: countries with theme switcher",
+    "description": [
+  
+    "See all countries from the API on the homepage",
+    "Filter countries by region",
+    "Click on a country to see more detailed information on a separate page",
+    "Click through to the border countries on the detail page",
+    "Toggle the color scheme between light and dark mode"
+  ],
+    "technologies":[
+      "React",
+      "TailwindCss",
+      "Javascript",
+      "ES6",
+      "CSS grid",
+      "API"
+    ],
+    "src":"images/portfolio/3.png",
+    "live":"https://ibtihelbs.github.io/rest_api_country/",
+    "code":"https://github.com/ibtihelbs/REst_api_country/",
+    "state":"done"
+  },
     {
       "title": "calculator with theme switcher",
       "description": [ 
@@ -94,29 +117,6 @@
         "live":"https://ibtihelbs.github.io/interactive/",
         "code":"https://github.com/ibtihelbs/interactive",
         "state":"coming-soon"
-      },
-      {
-        "title": "API: countries with theme switcher",
-        "description": [
-  
-        "See all countries from the API on the homepage",
-        "Filter countries by region",
-        "Click on a country to see more detailed information on a separate page",
-        "Click through to the border countries on the detail page",
-        "Toggle the color scheme between light and dark mode"
-      ],
-        "technologies":[
-          "React",
-          "TailwindCss",
-          "Javascript",
-          "ES6",
-          "CSS grid",
-          "API"
-        ],
-        "src":"images/portfolio/3.png",
-        "live":"https://ibtihelbs.github.io/rest_api_country/",
-        "code":"https://github.com/ibtihelbs/REst_api_country/",
-        "state":"done"
       }
       
     ]

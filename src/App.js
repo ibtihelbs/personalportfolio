@@ -10,23 +10,21 @@ import Footer from './componants/Footer';
 import TopScroll from './componants/TopScroll';
 import gsap from 'gsap';
 function App() {
-  let cursor = useRef(null)
-  let posX1 = useRef(null)
-  let posY1 = useRef(null)
-  let mouseX1 = useRef(null)
-  let mouseY1 = useRef(null)
-
+  let cursor = useRef(null);
+  let posX1 = useRef(null);
+  let posY1 = useRef(null);
+  let mouseX1 = useRef(null);
+  let mouseY1 = useRef(null);
   let tl = gsap.timeline();
   let tl2 = gsap.timeline();
-
   useEffect(() => {
     let posX = posX1.current;
     let posY = posY1.current;
     let mouseX = mouseX1.current;
     let mouseY = mouseY1.current;
-    tl.to({} , 0.016, {
+    tl.to({}, 0.016, {
       repeat: -1,
-      onRepeat: function(){
+      onRepeat: function () {
         posX += (mouseX - posX) / 10;
         posY += (mouseY - posY) / 10;
         tl.set(cursor, {
@@ -35,22 +33,26 @@ function App() {
             top: posY - 50,
           },
         });
-      }
-    })
-    document.addEventListener("mousemove", function(e){
+      },
+    });
+    document.addEventListener("mousemove", function (e) {
       mouseX = e.pageX;
       mouseY = e.pageY;
-    })
-    tl2.from(cursor, {
-      duration: 1.5,
-      delay: 2,
-      opacity: 1
-    }, "-=1")
-  })
-
+    });
+    tl2.from(
+      cursor,
+      {
+        duration: 1.5,
+        delay: 2,
+        opacity: 0,
+      },
+      "-=1"
+    );
+  });
   const load = gsap.timeline({
     paused: "true",
   });
+  console.log(load)
   let loader = useRef(null)
   let progress = useRef(null)
   let percent = useRef(null)
@@ -92,11 +94,12 @@ function App() {
   window.addEventListener("load", (e) => {
     loading();
   })
+
   return (
       <div className="App">
         <div className="noise"></div>
-      <div className="loader" ref={(el) => (loader = el)}>
-            <div className="progress" ref={(el) => (progress = el)}>
+          <div class="loader" ref={(el) => (loader = el)}>
+            <div class="progress" ref={(el) => (progress = el)}>
               <div id="percent" ref={(el) => (percent = el)}>
                 1%
               </div>

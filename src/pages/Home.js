@@ -6,34 +6,48 @@ import '../Assets/css/Home.css'
 import { Link } from 'react-router-dom';
 import GetInTouch from '../componants/GetInTouch';
 import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger';
 const Home = () => {
     let text1 = useRef(null)
-    let text2 = useRef(null)
-    let text3 = useRef(null)
-    let text4 = useRef(null)
-    let p1 = useRef(null)
-
-    const timeline_home = gsap.timeline();
-    useEffect(() => {
-        timeline_home.from([text1, text2, text3, text4], {
-            
-            duration: 1,
-            skewY: 15,
-            y: 400,
-            stagger: {
-                amount: .2
-            }
-        },"-=1.2")
-        timeline_home.from(p1, {
-            duration: .6,
-            x: -100,
-            delay: .2,
-            opacity: 1
+        let text2 = useRef(null)
+        let text3 = useRef(null)
+        let text4 = useRef(null)
+        let about = useRef(null)
+        let about2 = useRef(null)
+        let p1 = useRef(null)
+        const timeline_home = gsap.timeline();
+       gsap.registerPlugin(ScrollTrigger)
+        useEffect(()=> {
+            timeline_home.from([text1, text2, text3, text4], {
+                duration: 1,
+                skewY: 15,
+                y: 400,
+                stagger: {
+                    amount: .2
+                }
+            },"-=1.2")
+            timeline_home.from(p1,{
+                duration: .6,
+                x: -100,
+                delay: .2,
+                opacity: 0,
+            })
+            gsap.from([about,about2],{
+                scrollTrigger: {
+                    trigger: [about, about2],
+                    toggleActions: "play none none none"
+                },
+                y: 100,
+                opacity: 0,
+                duration: .8,
+                stagger: {
+                    amount: .4
+                }
+            })
         })
-    })
   return (
     <div className='home'>
-    1
+    
       <div className="container">
           <div className="container1">
               <div className="txt-line" id='Ibtihel'>
@@ -43,6 +57,7 @@ const Home = () => {
                   <p ref={el => text2 =el}>Ben Salah</p>
               </div>
           </div>
+          
           <div></div>
       </div>
       <div className="left-side-quote">
