@@ -105,7 +105,7 @@ const Home = () => {
                   <p>___</p>
               </div>
               <div className="skill-set-box">
-                  <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
+                  <h1 className="skill-set-box-h1">bootsrap</h1>
                   <p className="skill-set-box-p">I used this as an animation library, The most loved ones!</p>
                   <p>___</p>
               </div>

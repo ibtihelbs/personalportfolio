@@ -13,7 +13,7 @@ function App() {
   document.addEventListener('mousemove', (e)=>{
     var x = e.clientX;
     var y = e.clientY;
-    console.log(x,y)
+    console.log(x,y, cursor)
     cursor.style.left = x/2 + "px";
     cursor.style.bottom = y/2 + "px";
   })
