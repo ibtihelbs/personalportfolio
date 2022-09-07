@@ -5,7 +5,7 @@ import MenuIcon from '../Assets/menu.svg'
 const Navbar = () => {
   return (
     <nav>
-      <div id="Logo">ibtihel ben salah</div>
+      <div id="Logo"></div>
       <div className="toggle-menu">
         <img src={MenuIcon} alt="" />
       </div>

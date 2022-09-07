@@ -62,6 +62,7 @@ const Footer = () => {
                </div>
            </div>
            <div className="footer-ticker">
+           <div className="footer-ticker-">
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
@@ -82,6 +83,7 @@ const Footer = () => {
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
+             </div>
            </div>
         </div>
   )
