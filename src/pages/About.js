@@ -1,6 +1,8 @@
 import {useEffect, useRef } from 'react'
 import flower from '../Assets/flower.svg';
 import '../Assets/css/About.css';
+import { motion } from "framer-motion"
+
 const About = () => {
   return (
     <>
@@ -13,11 +15,17 @@ const About = () => {
                             Ibtihel 
                         </p>
                     </div>
-                    <div className="container-inner-text2">
+                    <motion.div animate={{
+                       
+                       transitionEnd: {
+                        marginTop:0,
+                      },
+                    }} 
+                    className="container-inner-text2">
                         <p>
                             Ben Salah
                         </p>
-                    </div>
+                    </motion.div>
                 </div>
                 <div  className="container-quote container-quote1">
                     I create sites and <br /> applications that cause <br /> pleasant emotions
@@ -30,10 +38,14 @@ const About = () => {
                 <div className="about-container2-heading">
                     
                     <div className="about-text-lower">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End</p>
+                        <motion.p animate={{
+                            transitionEnd: {
+                                lineHeight: "normal",
+                            }
+                        }} >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End</motion.p>
                     </div>
                     <div className="about-text-lower">
-                        <p>&nbsp;Developer&nbsp;&nbsp;&nbsp; &</p>
+                        <motion.p>&nbsp;Developer&nbsp;&nbsp;&nbsp; &</motion.p>
                     </div>
                     
                 </div>
