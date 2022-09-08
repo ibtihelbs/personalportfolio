@@ -29,7 +29,7 @@ const Work = () => {
                                 </div>
                                 <div className="project-page-item-footer">
                                     <p>{data.description}</p>
-                                    <div className='flex flex-wrap gap-2'>{data.technologies.map((e)=>(<button>{e}</button>))}</div>
+                                    <div  className='buttons flex'>{data.technologies.map((e)=>(<button className='button'>#{e}</button>))}</div>
                                 </div>
                         </div>))}
                         

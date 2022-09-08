@@ -57,7 +57,7 @@ const Footer = () => {
                        <p>Tunisia</p>
                    </div>
                    <div className="right-footer-bottom">
-                       <p>2021. Ibtihel Ben Salah. ALL RIGHT RESERVED</p>
+                       <p>2022_ Ibtihel Ben Salah.</p>
                    </div>
                </div>
            </div>
