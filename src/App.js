@@ -9,17 +9,8 @@ import Navbar from './componants/Navbar';
 import Footer from './componants/Footer';
 import TopScroll from './componants/TopScroll';
 function App() {
-  var cursor = document.querySelector('.cursor-follower');
-  document.addEventListener('mousemove', (e)=>{
-    var x = e.clientX;
-    var y = e.clientY;
-    console.log(x,y, cursor)
-    cursor.style.left = x/2 + "px";
-    cursor.style.bottom = y/2 + "px";
-  })
   return (
       <div className="App">
-        <div className="cursor-follower"></div>
         <div className="noise"></div>
         <BrowserRouter>
         <TopScroll/>
