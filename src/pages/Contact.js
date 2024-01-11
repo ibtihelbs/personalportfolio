@@ -31,7 +31,7 @@ const Contact = () => {
           </h1>
           <div className="contact-info">
             <form
-              action="https://formsubmit.co/ibtihel228bensalah@gmail.com"
+              action="https://formsubmit.co/f3722b96eeef38ba461314329c9cf8dc"
               method="POST"
             >
               <input type="email" placeholder="Email" required />
