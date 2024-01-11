@@ -1,14 +1,44 @@
-[   
+[
+  {
+    "title": "Polarized E-Commerce Platform",
+    "description": [
+      "Developed a comprehensive e-commerce platform from scratch, including web design, copy creation, branding, and a full-stack admin dashboard",
+      "Implemented a responsive and user-friendly interface to enhance the overall customer experience",
+      "Utilized Styled Components for a modular and efficient styling approach",
+      "I'm working on optimizing performance, incorporating on-scroll animations, and adding features to the website and admin dashboard"
+    ],
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Styled Components",
+      "Other relevant technologies/tools"
+    ],
+
+    "technologiesUsed": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Styled Components"
+    ],
+
+    "src": "images/portfolio/8.png",
+    "live": "https://polarized-store.onrender.com/",
+    "code": "https://github.com/ibtihelbs/POLARIZED/",
+    "state": "coming-soon"
+  },
   {
     "title": "API: countries with theme switcher",
     "description": [
-    "See all countries from the API on the homepage",
-    "Filter countries by region",
-    "Click on a country to see more detailed information on a separate page",
-    "Click through to the border countries on the detail page",
-    "Toggle the color scheme between light and dark mode"
-  ],
-    "technologies":[
+      "See all countries from the API on the homepage",
+      "Filter countries by region",
+      "Click on a country to see more detailed information on a separate page",
+      "Click through to the border countries on the detail page",
+      "Toggle the color scheme between light and dark mode"
+    ],
+    "technologies": [
       "React",
       "TailwindCss",
       "Javascript",
@@ -16,106 +46,111 @@
       "CSS grid",
       "API"
     ],
-    "src":"images/portfolio/3.png",
-    "live":"https://ibtihelbs.github.io/rest_api_country/",
-    "code":"https://reactapicountries.vercel.app/",
-    "state":"done"
+    "src": "images/portfolio/8.png",
+    "live": "https://ibtihelbs.github.io/rest_api_country/",
+    "code": "https://reactapicountries.vercel.app/",
+    "state": "done"
   },
-    {
-      "title": "calculator with theme switcher",
-      "description": [ 
+  {
+    "title": "calculator with theme switcher",
+    "description": [
       "See the size of the elements adjust based on their device's screen size",
       "Perform mathematical operations like addition, subtraction, multiplication, and division",
-      "Adjust the color theme based on their preference"],
-      "technologies": ["HTML",
-        "CSS3",
-        "CSS grid",
-        "javascript",
-        "ES6",
-        "import",
-        "Object oriented programming"],
-      "src":"images/portfolio/4.png",
-      "live":"https://ibtihelbs.github.io/calculator-themeswitcher/",
-      "code":"https://github.com/ibtihelbs/calculator-themeswitcher",
-      "state":"done"
-    },
-      {
-        "title": "Time Tracking Dashboard",
-        "description": [ 
-        "View the optimal layout for the site depending on their device's screen size",
-        "See hover states for all interactive elements on the page",
-        "Switch between viewing Daily, Weekly, and Monthly stats"],
-        "technologies":["HTML",
-          "CSS3",
-          "CSS Flexbox",
-          "javascript",
-          "ES6",
-          "JSON",
-          "Object oriented programming"],
-        "src":"images/portfolio/2.png",
-        "live":"https://ibtihelbs.github.io/time_tracking/index.html",
-        "code":"https://github.com/ibtihelbs/time_tracking",
-        "state":"done"
-      },
-  
-      {
-        "title": "Job listings with filtering",
-        "description": [   
-        "View the optimal layout for the site depending on their device's screen size",
-        "See hover states for all interactive elements on the page",
-        "Filter job listings based on the categories selected"
-  ],
-        "technologies":["HTML",
-          "CSS3",
-          "CSS Flexbox",
-          "javascript",
-          "ES6",
-          "json",
-          "Object oriented programming"],
-        "src":"images/portfolio/1.png",
-        "live":"https://ibtihelbs.github.io/static-job/",
-        "code":"https://github.com/ibtihelbs/static-job",
-        "state":"done"
-      },
-      {
-        "title": "product detail page",
-        "description": [   
-          "View the cart and remove items from it",
-          "Add items to the cart",
-          "Open a lightbox gallery by clicking on the large product image",
-          "Switch the large product image by clicking on the small thumbnail images"
-      ],
-        "technologies":["HTML",
-          "CSS3",
-          "CSS Flexbox",
-          "javascript",
-          "ES6"],
-        "src":"images/portfolio/5.png",
-        "live":"https://ibtihelbs.github.io/ecommerce-products-detail/",
-        "code":"https://github.com/ibtihelbs/ecommerce-products-detail",
-        "state":"done"
-      },
-      {
-        "title": "Interactive comments section",
-        "description": [  
-        "View the optimal layout for the app depending on their device's screen size",
-        "See hover states for all interactive elements on the page",
-        "Create, Read, Update, and Delete comments and replies",
-        "Upvote and downvote comments"
-  ],
-        "technologies":["HTML",
-          "CSS3",
-          "CSS Flexbox",
-          "javascript",
-          "ES6",
-          "import",
-          "crud app",
-          "slide",
-          "Object oriented programming"],
-        "src":"images/portfolio/6.png",
-        "live":"https://ibtihelbs.github.io/interactive/",
-        "code":"https://github.com/ibtihelbs/interactive",
-        "state":"coming-soon"
-      }
-      
-    ]
+      "Adjust the color theme based on their preference"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "CSS grid",
+      "javascript",
+      "ES6",
+      "import",
+      "Object oriented programming"
+    ],
+    "src": "images/portfolio/4.png",
+    "live": "https://ibtihelbs.github.io/calculator-themeswitcher/",
+    "code": "https://github.com/ibtihelbs/calculator-themeswitcher",
+    "state": "done"
+  },
+  {
+    "title": "Time Tracking Dashboard",
+    "description": [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+      "Switch between viewing Daily, Weekly, and Monthly stats"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "CSS Flexbox",
+      "javascript",
+      "ES6",
+      "JSON",
+      "Object oriented programming"
+    ],
+    "src": "images/portfolio/2.png",
+    "live": "https://ibtihelbs.github.io/time_tracking/index.html",
+    "code": "https://github.com/ibtihelbs/time_tracking",
+    "state": "done"
+  },
+
+  {
+    "title": "Job listings with filtering",
+    "description": [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+      "Filter job listings based on the categories selected"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "CSS Flexbox",
+      "javascript",
+      "ES6",
+      "json",
+      "Object oriented programming"
+    ],
+    "src": "images/portfolio/1.png",
+    "live": "https://ibtihelbs.github.io/static-job/",
+    "code": "https://github.com/ibtihelbs/static-job",
+    "state": "done"
+  },
+  {
+    "title": "product detail page",
+    "description": [
+      "View the cart and remove items from it",
+      "Add items to the cart",
+      "Open a lightbox gallery by clicking on the large product image",
+      "Switch the large product image by clicking on the small thumbnail images"
+    ],
+    "technologies": ["HTML", "CSS3", "CSS Flexbox", "javascript", "ES6"],
+    "src": "images/portfolio/5.png",
+    "live": "https://ibtihelbs.github.io/ecommerce-products-detail/",
+    "code": "https://github.com/ibtihelbs/ecommerce-products-detail",
+    "state": "done"
+  },
+  {
+    "title": "Interactive comments section",
+    "description": [
+      "View the optimal layout for the app depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+      "Create, Read, Update, and Delete comments and replies",
+      "Upvote and downvote comments"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "CSS Flexbox",
+      "javascript",
+      "ES6",
+      "import",
+      "crud app",
+      "slide",
+      "Object oriented programming"
+    ],
+    "src": "images/portfolio/6.png",
+    "live": "https://ibtihelbs.github.io/interactive/",
+    "code": "https://github.com/ibtihelbs/interactive",
+    "state": "coming-soon"
+  }
+]
