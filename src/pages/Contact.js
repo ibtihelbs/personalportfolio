@@ -30,21 +30,33 @@ const Contact = () => {
             Let's talk about <br /> the project? <img src={flower} alt="" />
           </h1>
           <div className="contact-info">
-            <form
-              action="https://formsubmit.co/f3722b96eeef38ba461314329c9cf8dc"
-              method="POST"
-            >
-              <input type="email" placeholder="Email" required />
-              <input type="text" placeholder="Subject" required />
-              <textarea type="text" placeholder="message" required></textarea>
+            <form onSubmit={submitHandler}>
+              <input
+                type="email"
+                placeholder="Email"
+                value={formInput.email}
+                onChange={(e) =>
+                  setFormInput({ ...formInput, email: e.target.value })
+                }
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                value={formInput.subject}
+                onChange={(e) =>
+                  setFormInput({ ...formInput, subject: e.target.value })
+                }
+              />
+              <textarea
+                type="text"
+                placeholder="message"
+                value={formInput.message}
+                onChange={(e) =>
+                  setFormInput({ ...formInput, message: e.target.value })
+                }
+              ></textarea>
               <button type="submit">Submit</button>
             </form>
-            {/**<form onSubmit={submitHandler}>
-                         <input type="email" placeholder="Email" value={formInput.email} onChange={(e)=>setFormInput({...formInput, email: e.target.value})} />
-                         <input type="text" placeholder="Subject" value={formInput.subject} onChange={(e)=>setFormInput({...formInput, subject: e.target.value})}/>
-                         <textarea type="text" placeholder="message" value={formInput.message} onChange={(e)=>setFormInput({...formInput, message: e.target.value})}></textarea>
-                         <button type="submit">Submit</button>
-                       </form> */}
             <ul>
               <li>
                 <a href="+216 92398964">+216 92398964</a>
