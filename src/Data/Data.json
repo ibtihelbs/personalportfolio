@@ -30,7 +30,7 @@
     "state": "coming-soon"
   },
   {
-    "title": "Full-stack Dashboard Project",
+    "title": "Full-stack Dashboard with next",
     "description": [
       "Developed a feature-rich full-stack dashboard project to introduce TypeScript, PostgreSQL, and authentication",
       "Created a responsive and dynamic user interface using Next.js for the frontend",
