@@ -12,8 +12,7 @@
       "Express.js",
       "React.js",
       "Node.js",
-      "Styled Components",
-      "Other relevant technologies/tools"
+      "Styled Components"
     ],
 
     "technologiesUsed": [
@@ -62,7 +61,7 @@
       "CSS grid",
       "API"
     ],
-    "src": "images/portfolio/8.png",
+    "src": "images/portfolio/3.png",
     "live": "https://ibtihelbs.github.io/rest_api_country/",
     "code": "https://reactapicountries.vercel.app/",
     "state": "done"
